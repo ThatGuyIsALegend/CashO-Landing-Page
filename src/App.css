@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "SNPro";
+    src: url("./assets/fonts/SNPro/SNPro-Variable.ttf");
+}
+
+:root {
+    font-family: "SNPro";
+}
