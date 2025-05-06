@@ -1,6 +1,6 @@
 # CashO - Aplicación de Finanzas Personales
 
-![CashO Logo](public/logo.png)
+![CashO Logo](src/assets/img/icon.png)
 
 ## Descripción
 
