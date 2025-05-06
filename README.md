@@ -1,54 +1,75 @@
-# React + TypeScript + Vite
+# CashO - Aplicación de Finanzas Personales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![CashO Logo](public/logo.png)
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CashO es una aplicación de finanzas personales diseñada para ayudar a los usuarios a gestionar sus gastos, ahorros e inversiones de manera intuitiva y eficiente. Esta landing page presenta las características principales de la aplicación, destacando su facilidad de uso y funcionalidades avanzadas.
 
-## Expanding the ESLint configuration
+## Características Principales
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- **Seguimiento de Gastos**: Monitorea tus gastos diarios y visualiza patrones de consumo.
+- **Metas de Ahorro**: Establece objetivos financieros y realiza un seguimiento de tu progreso.
+- **Análisis Financiero**: Obtén insights sobre tus hábitos financieros con gráficos y estadísticas.
+- **Seguridad Avanzada**: Tus datos están protegidos con encriptación de nivel bancario.
+- **Sincronización Multiplataforma**: Accede a tus datos desde cualquier dispositivo.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Tecnologías Utilizadas
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/ThatGuyIsALegend/CashO-Landing-Page.git
+   ```
+
+2. Navega al directorio del proyecto:
+   ```bash
+   cd CashO-Landing-Page
+   ```
+
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+4. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## Estructura del Proyecto
+
+```
+CashO-Landing-Page/
+├── public/              # Archivos estáticos
+├── src/                 # Código fuente
+│   ├── components/      # Componentes React
+│   ├── stylesheets/     # Archivos CSS
+│   ├── App.tsx          # Componente principal
+│   └── main.tsx         # Punto de entrada
+├── package.json         # Dependencias y scripts
+└── README.md            # Este archivo
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Despliegue
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+La landing page está desplegada en GitHub Pages y se puede acceder a través de:
+[https://thatguyisalegend.github.io/CashO-Landing-Page](https://thatguyisalegend.github.io/CashO-Landing-Page)
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## Contribución
+
+Las contribuciones son bienvenidas. Por favor, abre un issue para discutir los cambios que te gustaría realizar.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT - ver el archivo LICENSE para más detalles.
+
+## Contacto
+
+Para cualquier consulta, puedes contactar al equipo de desarrollo a través de GitHub.
